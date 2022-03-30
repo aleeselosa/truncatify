@@ -1,0 +1,31 @@
+{
+  "name": "truncatify",
+  "version": "1.0.0",
+  "description": "Truncate long descriptions and cut it to the nearest word ending",
+  "private": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:commonjs": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.ipgaxis.com:7999/~alever.selosa_mrm.com/truncatify.git"
+  },
+  "keywords": [
+    "truncate",
+    "truncator",
+    "truncatify"
+  ],
+  "author": "Alever Selosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "git@bitbucket.ipgaxis.com:7999/~alever.selosa_mrm.com/truncatify.git"
+  },
+  "homepage": "git@bitbucket.ipgaxis.com:7999/~alever.selosa_mrm.com/truncatify.git#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15"
+  }
+}
